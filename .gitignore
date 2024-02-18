@@ -1,0 +1,21 @@
+# macOS 시스템 파일 무시
+.DS_Store
+
+# Visual Studio Code 설정 파일 무시
+.vscode/
+*.code-workspace
+
+# JetBrains 계열 IDE 설정 파일 무시
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# JetBrains Rider
+.idea/
+
+# JetBrains PyCharm
+.idea/
+
+# 기타 JetBrains IDEs
+*.idea/
