@@ -12,7 +12,6 @@ let total = K
 
 for(item of parsedArr) {
     const q = Math.floor(total / item)
-    console.log('q: ', q)
     if(q !== 0) {
         count += q
         total %= item
