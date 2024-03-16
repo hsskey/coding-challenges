@@ -28,7 +28,7 @@ for(item of parsedArr) {
 //         }
 //     }
 //     continue
-// }   
+// }
 
 
 console.log(count)
