@@ -10,7 +10,6 @@ const data = secondLine
 let maxVisit = 0 // 2일동안 최대 방문자수
 let cnt = 1 // 기간이 몇개인지
 
-let start = 0
 let end = 0
 let temp = 0
 for(let start = 0; start < data.length; start++) {
