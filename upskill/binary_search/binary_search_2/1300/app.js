@@ -10,7 +10,7 @@ let n = Number(input[0]) // 배열의 크기(N)
 let k = Number(input[1]) // 인덱스 K
 
 let start = 1 // 배열에 존재할 수 있는 가장 작은 값
-let end = 9 // 배열에 존재할 수 있는 가장 큰 
+let end = n * n // 배열에 존재할 수 있는 가장 큰 값 (문제 범위상 10**10도 가능)
 
 let result = 0
 
