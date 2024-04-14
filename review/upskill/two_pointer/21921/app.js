@@ -27,7 +27,7 @@ while(true) { // 윈도우를 한 칸 오른쪽으로 이동하기
     left += 1
     right += 1
     
-    if(right > n) break
+    if(right >= n) break
     sum = sum + arr[right] - arr[left - 1] // 합을 계산하여 정답 갱신
     if(maxSum == sum) count += 1
     else if(maxSum < sum) { // 더 큰 합을 찾은 경우
