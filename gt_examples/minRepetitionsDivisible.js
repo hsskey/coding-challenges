@@ -1,3 +1,8 @@
+/**
+ * @param {number} n
+ * @param {number} k
+ * @return {number}
+ */
 function solution(n, k) {
     const nStr = n.toString();
     const kInt = parseInt(k, 10);
